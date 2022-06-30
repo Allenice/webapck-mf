@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkapp2"]=self["webpackChunkapp2"]||[]).push([[443],{451:function(e,n,t){t.r(n),t.d(n,{default:function(){return i}});var a=t(769);const c={class:"about"},r=(0,a.createElementVNode)("h1",null,"This is an about page",-1),u=[r];function o(e,n){return(0,a.openBlock)(),(0,a.createElementBlock)("div",c,u)}var s=t(407);const l={},p=(0,s.Z)(l,[["render",o]]);var i=p}}]);
+//# sourceMappingURL=about.fc19156c.js.map

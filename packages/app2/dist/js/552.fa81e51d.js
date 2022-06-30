@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkapp2"]=self["webpackChunkapp2"]||[]).push([[552],{552:function(n,e,t){function u(){console.log("test")}t.r(e),t.d(e,{default:function(){return u}})}}]);
+//# sourceMappingURL=552.fa81e51d.js.map
