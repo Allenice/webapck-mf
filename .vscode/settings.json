@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+}
