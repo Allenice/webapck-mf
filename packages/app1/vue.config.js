@@ -4,6 +4,7 @@ const ExternalTemplateRemotesPlugin = require('external-remotes-plugin')
 
 module.exports = defineConfig({
     transpileDependencies: true,
+    publicPath: 'auto',
     configureWebpack() {
         return {
             plugins: [

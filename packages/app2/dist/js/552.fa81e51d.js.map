@@ -1,1 +1,0 @@
-{"version":3,"file":"js/552.fa81e51d.js","mappings":"sGAAe,SAASA,IACpBC,QAAQC,IAAI,Q","sources":["webpack://app2/./src/test.ts"],"sourcesContent":["export default function test() {\n    console.log('test')\n}\n"],"names":["test","console","log"],"sourceRoot":""}

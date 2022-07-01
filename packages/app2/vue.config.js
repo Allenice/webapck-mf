@@ -1,5 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 const { ModuleFederationPlugin } = require('webpack').container
+const { MFLiveReloadPlugin } = require('@module-federation/fmr')
 
 module.exports = defineConfig({
     devServer: {
@@ -12,6 +13,7 @@ module.exports = defineConfig({
             plugins: [
                 // 目前使用联邦模块，hot reload 会失效
                 new ModuleFederationPlugin({
+                    // 这个 name 会变成 window 的变量
                     name: 'app2',
                     filename: 'entry.js',
                     exposes: {
@@ -20,11 +22,11 @@ module.exports = defineConfig({
                     },
                     shared: {
                         vue: {
-                            eager: true,
                             singleton: true,
                         },
                     },
                 }),
+                new MFLiveReloadPlugin({}),
             ],
         }
     },
